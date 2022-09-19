@@ -34,6 +34,7 @@ int main() {
     const int samples_per_pixel = 100;
     const int max_depth = 50;
     //World
+
     hittable_list world;
 
     auto material_groud = make_shared<lambertian>(color(0.8, 0.8, 0.0));
@@ -48,7 +49,7 @@ int main() {
     world.add(make_shared<sphere>(point3( 1.0,    0.0, -1.0),   0.5, material_right));
 
     //Camera
-    camera cam;
+    camera cam(point3(-2, 2, 1), point3(0, 0, -1), vec3(0, 1, 0), 20, aspect_ratio);
 
     std::cout<< "P3\n" << image_width << ' ' << image_height << "\n255\n";
     for (int j = image_height - 1; j >= 0; j--) {
