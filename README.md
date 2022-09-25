@@ -19,24 +19,24 @@ This repo is my implementation of RayTracing in One Weekend book.
 A simple raytracer from scratch, starting from a output of a pure color image, I built a simple vector computation library, defined classes for ray, hittable objects, materials(lambertian, dielectric, metal), etc.
 ## Result
 ---
-- red sphere
+- red sphere  
 ![a red sphere](./Image/png/redSphere.png)
-- normal-color sphere
+- normal-color sphere  
 ![normal color sphere](./Image/png/normalsColoredSphere.png)
-- after sampled
+- after sampled  
 ![sampled normal sphere](./Image/png/sampledNormalSphere.png)
-- diffuse sphere
+- diffuse sphere  
 ![diffuse sphere](./Image/png/diffuseSphere.png)
 ![gamma diffuse](./Image/png/gammaDiffuseSphere.png)
-- metal sphere
+- metal sphere  
 ![metal sphere](./Image/png/materialSpheres.png)
-fuzzier
+fuzzier  
 ![metal fuzz](./Image/png/metalFuzzSpheres.png)
-- dielecticShperes
+- dielecticShperes  
 ![dielectic](./Image/png/dielectricShperes.png)
-- depth of field
+- depth of field  
 ![DOF](./Image/png/depthOfField.png)
 ![zoom in](./Image/png/zoomIn.png)
-- final
+- final  
 ![final](./Image/png/final.png)
 
