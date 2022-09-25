@@ -29,7 +29,7 @@ A simple raytracer from scratch, starting from a output of a pure color image, I
 ![diffuse sphere](./Image/png/diffuseSphere.png)
 ![gamma diffuse](./Image/png/gammaDiffuseSphere.png)
 - metal sphere  
-![metal sphere](./Image/png/materialSpheres.png)
+![metal sphere](./Image/png/materialSpheres.png)  
 fuzzier  
 ![metal fuzz](./Image/png/metalFuzzSpheres.png)
 - dielecticShperes  
