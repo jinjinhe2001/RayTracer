@@ -1,5 +1,6 @@
 # RayTracing-in-OneWeekend
-This repo is my implementation of RayTracing in One Weekend book.
+This repo is my implementation of RayTracing in One Weekend book.  
+![final](./Image/png/final.png)
 ## Platform  
 ---
 - macOS, Linux, windows
